@@ -1,0 +1,115 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+h1,h2,h3,h4,h5,h6,p
+	margin: 0
+	padding: 0
+section
+	padding-top: 15px
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.text-center
+	text-align: center
+.text-right
+	text-align: right
+.list-inline
+	a
+		list-style-type: none
+		display: inline-block
+
+
+.header
+	background: url(../img/bg2.jpg) top
+	background-size: cover
+	// width: 2600px
+	height: 700px
+	position: relative
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 100%
+		// background-color: rgba(0, 0, 0, .4)
+
+.item
+	position: absolute
+	z-index: .8
+	opacity: .7
+	top: 40px
+	left: 80px
+	// border: 1px solid rgba(255, 255, 255, .8)
+	border-radius: 7px
+	width: 300px
+	height: 427px
+	background-image: url(../img/bg.jpg)
+	box-shadow: #000 10px 15px 20px
+	&::after
+		content: ''
+		position: absolute
+		width: 100%
+		height: 100%
+		background-color: rgba(0, 0, 0, .1)
+
+.content
+	height: 20vh
+	overflow: hidden
+	display: flex
+	.contItem
+		height: 100%
+		width: 150px
+		margin: 0 5px
+		box-shadow: #000 12px 0px 22px
+		img
+			width: 100%
+
+
+
+
+@import "media" // Всегда в конце
