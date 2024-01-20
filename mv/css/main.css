@@ -1,3 +1,5 @@
+@import url(../libs/unslider/css/unslider.css);
+@import url(../libs/unslider/css/unslider-dots.css);
 @font-face {
   font-family: "roboto-example";
   font-weight: normal;
@@ -1020,17 +1022,39 @@ body {
   list-style-type: none;
   display: inline-block; }
 
-.header {
-  background: url(../img/Shooter.jpg);
+.slide {
   background-size: cover;
   height: 700px;
   position: relative; }
-  .header::after {
+  .slide::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4); }
+  .slide .btn {
+    position: absolute;
+    opacity: .8;
+    bottom: 50px;
+    z-index: 4;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 22px 65px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 100; }
+
+.shooter {
+  background: url(../img/Shooter.jpg);
+  background-size: cover; }
+
+.snitch {
+  background: url(../img/snitch.jpg);
+  background-size: cover; }
 
 .item {
   position: absolute;
@@ -1041,7 +1065,6 @@ body {
   border-radius: 7px;
   width: 300px;
   height: 427px;
-  background-image: url(../img/Shooter.jpg);
   background-position: 800px 650px;
   box-shadow: #000 10px 15px 20px; }
   .item::after {
@@ -1050,6 +1073,14 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); }
+
+.item-shooter {
+  background-image: url(../img/Shooter.jpg); }
+
+.item-snitch {
+  background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
 
 .content {
   height: 20vh;
