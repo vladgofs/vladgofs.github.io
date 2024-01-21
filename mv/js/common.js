@@ -2,7 +2,7 @@
 		
 		$('.banner').unslider({ 
 			autoplay: true,
-			keys: false, 
+			keys: true, 
 			delay: 10000,
 			nav: false,
 			infinite: true 

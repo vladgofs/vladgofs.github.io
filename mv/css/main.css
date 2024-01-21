@@ -1059,6 +1059,11 @@ body {
   background: url(../img/snitch.jpg);
   background-size: cover; }
 
+.shrek {
+  background: url(../img/shrek.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item {
   position: absolute;
   z-index: .8;
@@ -1082,6 +1087,11 @@ body {
 
 .item-snitch {
   background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-shrek {
+  background-image: url(../img/content/shrek.jpg);
   background-position: 0 0;
   background-size: cover; }
 
