@@ -1022,9 +1022,12 @@ body {
   list-style-type: none;
   display: inline-block; }
 
+.header .unslider .unslider-arrow {
+  display: none; }
+
 .slide {
   background-size: cover;
-  height: 700px;
+  height: 100vh;
   position: relative; }
   .slide::after {
     content: '';
@@ -1035,7 +1038,7 @@ body {
   .slide .btn {
     position: absolute;
     opacity: .8;
-    bottom: 50px;
+    bottom: 250px;
     z-index: 4;
     color: #fff;
     left: 50%;
@@ -1053,6 +1056,7 @@ body {
   background-size: cover; }
 
 .snitch {
+  background: url(../img/snitch.jpg);
   background-size: cover; }
 
 .item {
@@ -1081,10 +1085,21 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
+.content-slide {
+  opacity: 0;
+  transition: all .5s ease; }
+
+.contentSlide {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
 .content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   height: 20vh;
-  overflow: hidden;
-  display: flex; }
+  overflow: hidden; }
   .content .contItem {
     height: 100%;
     width: 150px;
@@ -1092,6 +1107,10 @@ body {
     box-shadow: #000 12px 0px 22px; }
     .content .contItem img {
       width: 100%; }
+
+.content:hover .content-slide {
+  opacity: 1;
+  transition: all 1s ease; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
