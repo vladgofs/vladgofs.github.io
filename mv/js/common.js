@@ -7,10 +7,11 @@
 			nav: false,
 			infinite: true 
 		});
-
-		$('.content-slide').unslider({ 
+		
+		$('.content-slide').unslider({
 			autoplay: true,
 			delay: 20000,
+			keys: false,
 			nav: false,
 			infinite: true 
 		});

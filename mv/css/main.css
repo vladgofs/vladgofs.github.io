@@ -1049,15 +1049,25 @@ body {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
-    font-weight: 100; }
+    font-weight: 100;
+    transition: all .3s; }
+    .slide .btn:hover {
+      opacity: .9;
+      color: red;
+      transition: all .1s; }
 
 .shooter {
-  background: url(../img/Shooter.jpg);
+  background: url(https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/9a/a2/87/9aa28704-09b1-68c5-1c2d-97eb4f965b21/PAR_SHOOT_WW_ARTWORK_EN_3840x2160_1MJGKH000000CG.lsr/1200x675.jpg);
   background-size: cover; }
 
 .snitch {
   background: url(../img/snitch.jpg);
   background-size: cover; }
+
+.DueDate {
+  background: url(../img/DueDate.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .shrek {
   background: url(../img/shrek1.jpg);
@@ -1098,10 +1108,17 @@ body {
     background-color: rgba(0, 0, 0, 0.1); }
 
 .item-shooter {
-  background-image: url(../img/Shooter.jpg); }
+  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/9a/a2/87/9aa28704-09b1-68c5-1c2d-97eb4f965b21/PAR_SHOOT_WW_ARTWORK_EN_3840x2160_1MJGKH000000CG.lsr/1200x675.jpg);
+  background-position: -300px -50px;
+  background-size: cover; }
 
 .item-snitch {
   background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-DueDate {
+  background-image: url(../img/content/DueDate1.jpg);
   background-position: 0 0;
   background-size: cover; }
 
