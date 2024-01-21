@@ -1,7 +1,7 @@
 	$(function() { 
 		
 		$('.banner').unslider({ 
-			autoplay: false, 
+			autoplay: true, 
 			delay: 10000,
 			nav: false,
 			infinite: true 
