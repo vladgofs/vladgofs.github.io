@@ -1060,7 +1060,22 @@ body {
   background-size: cover; }
 
 .shrek {
-  background: url(../img/shrek.jpg);
+  background: url(../img/shrek1.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.shrek2 {
+  background: url(../img/shrek2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.shrek3 {
+  background: url(../img/shrek3.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.shrek4 {
+  background: url(../img/shrek4.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -1091,8 +1106,23 @@ body {
   background-size: cover; }
 
 .item-shrek {
-  background-image: url(../img/content/shrek.jpg);
+  background-image: url(../img/content/shrek1.jpg);
   background-position: 0 0;
+  background-size: cover; }
+
+.item-shrek2 {
+  background-image: url(../img/content/shrek2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-shrek3 {
+  background-image: url(../img/content/shrek3.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-shrek4 {
+  background-image: url(../img/content/shrek4.jpg);
+  background-position: -180px 0;
   background-size: cover; }
 
 .content-slide {
