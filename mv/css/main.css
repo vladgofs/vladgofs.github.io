@@ -1053,7 +1053,6 @@ body {
   background-size: cover; }
 
 .snitch {
-  background: url(https://thumbs.dfs.ivi.ru/storage30/contents/2/d/e95be92e582eeb0932577fa1087899.jpg);
   background-size: cover; }
 
 .item {
@@ -1078,6 +1077,7 @@ body {
   background-image: url(../img/Shooter.jpg); }
 
 .item-snitch {
+  background-image: url(../img/content/Snitch.jpg);
   background-position: 0 0;
   background-size: cover; }
 
