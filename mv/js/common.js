@@ -1,18 +1,20 @@
 	$(function() { 
 		
-		$('.banner').unslider({ 
-			autoplay: false,
-			keys: true, 
-			delay: 10000,
+		$('#banner').unslider({ 
+			autoplay: true,
+			keys: false, 
+			delay: 15000,
 			nav: false,
+			arrows: true,
 			infinite: true 
 		});
 		
 		$('.content-slide').unslider({
 			autoplay: true,
 			delay: 20000,
-			keys: false,
+			keys: true,
 			nav: false,
+			arrows: false,
 			infinite: true 
 		});
 

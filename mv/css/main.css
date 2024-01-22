@@ -1057,7 +1057,7 @@ body {
       transition: all .1s; }
 
 .shooter {
-  background: url(https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/9a/a2/87/9aa28704-09b1-68c5-1c2d-97eb4f965b21/PAR_SHOOT_WW_ARTWORK_EN_3840x2160_1MJGKH000000CG.lsr/1200x675.jpg);
+  background: url(../img/shooter1.jpg);
   background-size: cover; }
 
 .snitch {
@@ -1066,6 +1066,26 @@ body {
 
 .DueDate {
   background: url(../img/DueDate.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.lawAbidingCitizen {
+  background: url(../img/lawAbidingCitizen.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.escape {
+  background: url(../img/escape.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.selfless {
+  background: url(../img/selfless.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.focus {
+  background: url(../img/focus.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -1108,7 +1128,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1); }
 
 .item-shooter {
-  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/9a/a2/87/9aa28704-09b1-68c5-1c2d-97eb4f965b21/PAR_SHOOT_WW_ARTWORK_EN_3840x2160_1MJGKH000000CG.lsr/1200x675.jpg);
+  background-image: url(../img/content/Shooter1.jpg);
   background-position: -300px -50px;
   background-size: cover; }
 
@@ -1119,6 +1139,26 @@ body {
 
 .item-DueDate {
   background-image: url(../img/content/DueDate1.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-lawAbidingCitizen {
+  background-image: url(../img/content/lawAbidingCitizen.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-escape {
+  background-image: url(../img/content/escape.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-selfless {
+  background-image: url(../img/content/selfless.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.item-focus {
+  background-image: url(../img/content/focus.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1138,7 +1178,7 @@ body {
   background-size: cover; }
 
 .item-shrek4 {
-  background-image: url(../img/content/shrek4.jpg);
+  background-image: url(../img/shrek4.jpg);
   background-position: -180px 0;
   background-size: cover; }
 
