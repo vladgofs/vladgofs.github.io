@@ -1056,59 +1056,6 @@ body {
       color: red;
       transition: all .1s; }
 
-.shooter {
-  background: url(../img/shooter1.jpg);
-  background-size: cover; }
-
-.snitch {
-  background: url(../img/snitch.jpg);
-  background-size: cover; }
-
-.DueDate {
-  background: url(../img/DueDate.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.lawAbidingCitizen {
-  background: url(../img/lawAbidingCitizen.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.escape {
-  background: url(../img/escape.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.selfless {
-  background: url(../img/selfless.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.focus {
-  background: url(../img/focus.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.shrek {
-  background: url(../img/shrek1.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.shrek2 {
-  background: url(../img/shrek2.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.shrek3 {
-  background: url(../img/shrek3.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.shrek4 {
-  background: url(../img/shrek4.jpg);
-  background-size: cover;
-  background-position: center; }
-
 .item {
   position: absolute;
   z-index: .8;
@@ -1127,9 +1074,17 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1); }
 
+.shooter {
+  background: url(../img/shooter1.jpg);
+  background-size: cover; }
+
 .item-shooter {
   background-image: url(../img/content/Shooter1.jpg);
   background-position: -300px -50px;
+  background-size: cover; }
+
+.snitch {
+  background: url(../img/snitch.jpg);
   background-size: cover; }
 
 .item-snitch {
@@ -1137,45 +1092,146 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
+.DueDate {
+  background: url(../img/DueDate.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item-DueDate {
   background-image: url(../img/content/DueDate1.jpg);
   background-position: 0 0;
   background-size: cover; }
+
+.lawAbidingCitizen {
+  background: url(../img/lawAbidingCitizen.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .item-lawAbidingCitizen {
   background-image: url(../img/content/lawAbidingCitizen.jpg);
   background-position: 0 0;
   background-size: cover; }
 
+.escape {
+  background: url(../img/escape.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item-escape {
   background-image: url(../img/content/escape.jpg);
   background-position: 0 0;
   background-size: cover; }
+
+.escape2 {
+  background: url(../img/escape2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-escape2 {
+  background-image: url(../img/content/escape2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.bmh {
+  background: url(../img/bmh.jpg);
+  background-size: cover; }
+
+.item-bmh {
+  background-image: url(../img/content/bmh.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.bmh2 {
+  background: url(.img/bmh2.jpg);
+  background-size: cover; }
+
+.item-bmh2 {
+  background-image: url(../img/content/bmh2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.selfless {
+  background: url(../img/selfless.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .item-selfless {
   background-image: url(../img/content/selfless.jpg);
   background-position: 0 0;
   background-size: cover; }
 
+.focus {
+  background: url(../img/focus.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item-focus {
-  background-image: url(../img/content/focus.jpg);
+  background-image: url(../img/content/focus2.jpg);
   background-position: 0 0;
   background-size: cover; }
+
+.focus {
+  background: url(../img/focus.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-focus {
+  background-image: url(../img/content/focus2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.snitch {
+  background: url(../img/snitch.jpg);
+  background-size: cover; }
+
+.item-snitch {
+  background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.snitch {
+  background: url(../img/snitch.jpg);
+  background-size: cover; }
+
+.item-snitch {
+  background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.shrek {
+  background: url(../img/shrek1.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .item-shrek {
   background-image: url(../img/content/shrek1.jpg);
   background-position: 0 0;
   background-size: cover; }
 
+.shrek2 {
+  background: url(../img/shrek2.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item-shrek2 {
   background-image: url(../img/content/shrek2.jpg);
   background-position: 0 0;
   background-size: cover; }
 
+.shrek3 {
+  background: url(../img/shrek3.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .item-shrek3 {
   background-image: url(../img/content/shrek3.jpg);
   background-position: 0 0;
   background-size: cover; }
+
+.shrek4 {
+  background: url(../img/shrek4.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .item-shrek4 {
   background-image: url(../img/shrek4.jpg);

@@ -1,8 +1,8 @@
 	$(function() { 
 		
 		$('#banner').unslider({ 
-			autoplay: true,
-			keys: false, 
+			autoplay: false,
+			keys: true, 
 			delay: 15000,
 			nav: false,
 			arrows: true,
