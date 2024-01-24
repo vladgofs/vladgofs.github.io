@@ -1102,6 +1102,16 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
+.bmh {
+  background: url(../img/bmh.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-bmh {
+  background-image: url(../img/content/bmh.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
 .lawAbidingCitizen {
   background: url(../img/lawAbidingCitizen.jpg);
   background-size: cover;
@@ -1109,44 +1119,6 @@ body {
 
 .item-lawAbidingCitizen {
   background-image: url(../img/content/lawAbidingCitizen.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.escape {
-  background: url(../img/escape.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.item-escape {
-  background-image: url(../img/content/escape.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.escape2 {
-  background: url(../img/escape2.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.item-escape2 {
-  background-image: url(../img/content/escape2.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.bmh {
-  background: url(../img/bmh.jpg);
-  background-size: cover; }
-
-.item-bmh {
-  background-image: url(../img/content/bmh.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.bmh2 {
-  background: url(.img/bmh2.jpg);
-  background-size: cover; }
-
-.item-bmh2 {
-  background-image: url(../img/content/bmh2.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1170,31 +1142,43 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
-.focus {
-  background: url(../img/focus.jpg);
+.escape {
+  background: url(../img/escape.jpg);
   background-size: cover;
   background-position: center; }
 
-.item-focus {
-  background-image: url(../img/content/focus2.jpg);
+.item-escape {
+  background-image: url(../img/content/escape.jpg);
   background-position: 0 0;
   background-size: cover; }
 
-.snitch {
-  background: url(../img/snitch.jpg);
-  background-size: cover; }
+.escape2 {
+  background: url(../img/escape2.jpg);
+  background-size: cover;
+  background-position: center; }
 
-.item-snitch {
-  background-image: url(../img/content/Snitch.jpg);
+.item-escape2 {
+  background-image: url(../img/content/escape2.jpg);
   background-position: 0 0;
   background-size: cover; }
 
-.snitch {
-  background: url(../img/snitch.jpg);
+.alvinAndTheChipmunks {
+  background: url(../img/alvinAndTheChipmunks.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-alvinAndTheChipmunks {
+  background-image: url(../img/content/alvinAndTheChipmunks.jpg);
+  background-position: 0 0;
   background-size: cover; }
 
-.item-snitch {
-  background-image: url(../img/content/Snitch.jpg);
+.alvinAndTheChipmunks2 {
+  background: url(../img/alvinAndTheChipmunks2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-alvinAndTheChipmunks2 {
+  background-image: url(../img/content/alvinAndTheChipmunks2.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1219,12 +1203,12 @@ body {
   background-size: cover; }
 
 .shrek3 {
-  background: url(../img/shrek3.jpg);
+  background: url(../img/shrek3.1.jpg);
   background-size: cover;
   background-position: center; }
 
 .item-shrek3 {
-  background-image: url(../img/content/shrek3.jpg);
+  background-image: url(../img/content/shrek3.1.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1234,8 +1218,8 @@ body {
   background-position: center; }
 
 .item-shrek4 {
-  background-image: url(../img/shrek4.jpg);
-  background-position: -180px 0;
+  background-image: url(../img/content/shrek4.3.jpg);
+  background-position: 0 0;
   background-size: cover; }
 
 .content-slide {
