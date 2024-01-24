@@ -1112,6 +1112,15 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
+.bmh2 {
+  background: url(../img/bmh2.jpg);
+  background-size: cover; }
+
+.item-bmh2 {
+  background-image: url(../img/content/bmh2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
 .lawAbidingCitizen {
   background: url(../img/lawAbidingCitizen.jpg);
   background-size: cover;
