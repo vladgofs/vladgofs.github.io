@@ -1142,12 +1142,12 @@ body {
   background-size: cover; }
 
 .focus {
-  background: url(../img/scream5.1.jpg);
+  background: url(../img/focus.jpg);
   background-size: cover;
   background-position: center; }
 
 .item-focus {
-  background-image: url(../img/content/scream5.1.jpg);
+  background-image: url(../img/content/focus2.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1168,6 +1168,26 @@ body {
 
 .item-escape2 {
   background-image: url(../img/content/escape2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.scream5 {
+  background: url(../img/scream5.1.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-scream5 {
+  background-image: url(../img/content/scream5.1.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.scream6 {
+  background: url(../img/scream6.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-scream6 {
+  background-image: url(../img/content/scream6.jpg);
   background-position: 0 0;
   background-size: cover; }
 
