@@ -1191,6 +1191,36 @@ body {
   background-position: 0 0;
   background-size: cover; }
 
+.finalDestination {
+  background: url(../img/finalDestination.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-finalDestination {
+  background-image: url(../img/content/finalDestination.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.finalDestination2 {
+  background: url(../img/finalDestination2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-finalDestination2 {
+  background-image: url(../img/content/finalDestination2.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.finalDestination3 {
+  background: url(../img/finalDestination3.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-finalDestination3 {
+  background-image: url(../img/content/finalDestination3.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
 .alvinAndTheChipmunks {
   background: url(../img/alvinAndTheChipmunks.jpg);
   background-size: cover;
