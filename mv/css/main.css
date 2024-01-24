@@ -1243,7 +1243,7 @@ body {
 .content {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 10px;
   height: 20vh;
   overflow: hidden; }
   .content .contItem {
