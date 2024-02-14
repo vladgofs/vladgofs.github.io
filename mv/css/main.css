@@ -1022,20 +1022,28 @@ body {
   list-style-type: none;
   display: inline-block; }
 
-.header .unslider .unslider-arrow {
+.category {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none; }
+  .category-active {
+    display: block; }
+
+.film .unslider .unslider-arrow {
   display: none; }
 
-.slide {
+.slide, .banner {
   background-size: cover;
   height: 100vh;
   position: relative; }
-  .slide::after {
+  .slide::after, .banner::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4); }
-  .slide .btn {
+  .slide .btn, .banner .btn {
     position: absolute;
     opacity: .8;
     bottom: 250px;
@@ -1051,10 +1059,75 @@ body {
     letter-spacing: 2px;
     font-weight: 100;
     transition: all .3s; }
-    .slide .btn:hover {
+    .slide .btn:hover, .banner .btn:hover {
       opacity: .9;
       color: red;
       transition: all .1s; }
+
+.eachGanre {
+  position: relative;
+  z-index: 1; }
+  .eachGanre .unslider-nav ol {
+    opacity: 0;
+    position: absolute;
+    width: 650px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease; }
+    .eachGanre .unslider-nav ol li {
+      height: 20vh;
+      width: 150px;
+      margin: 0 5px;
+      box-shadow: #000 12px 0px 22px;
+      border: none;
+      z-index: 11;
+      cursor: pointer;
+      background-size: cover; }
+    .eachGanre .unslider-nav ol:hover {
+      opacity: 1;
+      transition: all 1s ease; }
+
+.slider-shoots .unslider-nav ol li:nth-child(5) {
+  background-image: url(../img/content/Snitch.jpg); }
+
+.slider-shoots .unslider-nav ol li:nth-child(2) {
+  background-image: url(../img/content/Shooter1.jpg); }
+
+.slider-shoots .unslider-nav ol li:nth-child(3) {
+  background-image: url(../img/content/selfless.jpg); }
+
+.slider-shoots .unslider-nav ol li:nth-child(4) {
+  background-image: url(../img/content/lawAbidingCitizen.jpg); }
+
+.slider-shoots .unslider-nav ol li:nth-child(1) {
+  background-image: url(../img/content/homefront.jpg); }
+
+.slider-action .unslider-nav ol li:nth-child(3) {
+  background-image: url(../img/content/escape.jpg); }
+
+.slider-action .unslider-nav ol li:nth-child(2) {
+  background-image: url(../img/content/escape2.jpg); }
+
+.slider-action .unslider-nav ol li:nth-child(4) {
+  background-image: url(../img/content/finalDestination.jpg); }
+
+.slider-action .unslider-nav ol li:nth-child(1) {
+  background-image: url(../img/content/finalDestination2.jpg); }
+
+.slider-action .unslider-nav ol li:nth-child(5) {
+  background-image: url(../img/content/finalDestination3.jpg); }
+
+.slider-horror .unslider-nav ol li:nth-child(1) {
+  background-image: url(../img/content/scream5.1.jpg); }
+
+.slider-horror .unslider-nav ol li:nth-child(2) {
+  background-image: url(../img/content/scream6.jpg); }
+
+.slider-altiva .unslider-nav ol li:nth-child(1) {
+  background-image: url(../img/content/focus2.jpg); }
 
 .item {
   position: absolute;
@@ -1089,6 +1162,15 @@ body {
 
 .item-snitch {
   background-image: url(../img/content/Snitch.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.homefront {
+  background: url(../img/homefront.jpg);
+  background-size: cover; }
+
+.item-homefront {
+  background-image: url(../img/content/homefront.jpg);
   background-position: 0 0;
   background-size: cover; }
 
