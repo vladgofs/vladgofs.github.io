@@ -1022,14 +1022,6 @@ body {
   list-style-type: none;
   display: inline-block; }
 
-.category {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: none; }
-  .category-active {
-    display: block; }
-
 .film .unslider .unslider-arrow {
   display: none; }
 
@@ -1066,10 +1058,14 @@ body {
 
 .eachGanre {
   position: relative;
-  z-index: 1; }
-  .eachGanre .unslider-nav ol {
+  z-index: 0; }
+  .eachGanre .unslider-nav {
+    overflow: hidden;
     opacity: 0;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 650px;
     height: 100vh;
     top: 0;
@@ -1077,18 +1073,26 @@ body {
     z-index: 11;
     background: rgba(0, 0, 0, 0.5);
     transition: all .5s ease; }
-    .eachGanre .unslider-nav ol li {
-      height: 20vh;
-      width: 150px;
-      margin: 0 5px;
-      box-shadow: #000 12px 0px 22px;
-      border: none;
-      z-index: 11;
-      cursor: pointer;
-      background-size: cover; }
-    .eachGanre .unslider-nav ol:hover {
+    .eachGanre .unslider-nav ol {
+      width: 80%; }
+      .eachGanre .unslider-nav ol li {
+        height: 20vh;
+        width: 150px;
+        margin: 0 5px;
+        box-shadow: #000 12px 0px 22px;
+        border: none;
+        z-index: 11;
+        cursor: pointer;
+        background-size: cover; }
+        .eachGanre .unslider-nav ol li.unslider-active {
+          transform: scale(1.3);
+          transition: all .5s ease; }
+        .eachGanre .unslider-nav ol li:hover {
+          transition: all .5s ease;
+          border: 1px solid red; }
+    .eachGanre .unslider-nav:hover {
       opacity: 1;
-      transition: all 1s ease; }
+      transition: all .5s ease; }
 
 .slider-shoots .unslider-nav ol li:nth-child(5) {
   background-image: url(../img/content/Snitch.jpg); }
