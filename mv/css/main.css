@@ -1080,7 +1080,8 @@ body {
       border: none;
       z-index: 11;
       cursor: pointer;
-      background-size: cover; }
+      background-size: cover;
+      transition: all .5s ease; }
       .eachGanre .unslider-nav ol li.unslider-active {
         transform: scale(1.2);
         transition: all .5s ease; }
@@ -1223,7 +1224,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1); }
 
 .shooter {
-  background: url(../img/shooter1.jpg);
+  background: url(../img/war.jpg);
   background-size: cover; }
 
 .item-shooter {
@@ -1246,6 +1247,26 @@ body {
 
 .item-homefront {
   background-image: url(../img/content/homefront.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.lawAbidingCitizen {
+  background: url(../img/lawAbidingCitizen.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-lawAbidingCitizen {
+  background-image: url(../img/content/lawAbidingCitizen.jpg);
+  background-position: 0 0;
+  background-size: cover; }
+
+.selfless {
+  background: url(../img/selfless.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.item-selfless {
+  background-image: url(../img/content/selfless.jpg);
   background-position: 0 0;
   background-size: cover; }
 
@@ -1389,26 +1410,6 @@ body {
 
 .item-bmh3 {
   background-image: url(../img/content/bmh3.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.lawAbidingCitizen {
-  background: url(../img/lawAbidingCitizen.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.item-lawAbidingCitizen {
-  background-image: url(../img/content/lawAbidingCitizen.jpg);
-  background-position: 0 0;
-  background-size: cover; }
-
-.selfless {
-  background: url(../img/selfless.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.item-selfless {
-  background-image: url(../img/content/selfless.jpg);
   background-position: 0 0;
   background-size: cover; }
 
